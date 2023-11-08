@@ -82,9 +82,8 @@ h2
 
 .gallery {
     color: #555;
-    padding: 0 var(--large-default-padding) var(--medium-default-padding);
     display: flex;
-    justify-content: space-between;
+    justify-content: center;
 }
 
 .gallery-card {
@@ -121,6 +120,9 @@ h2
     width: 70%;
     
 }
+article a{
+    text-decoration: none;
+}
 
 .rodape  {
     background: #0b171f;
@@ -132,7 +134,7 @@ h2
     
 }
 .rodape a {
-    text-decoration: none;
+    
 }
 .rodape p{
     font-size: 20px;
